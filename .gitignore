@@ -1,0 +1,55 @@
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*/.idea/
+/.idea/
+.gradle/
+*/.gradle/
+/.gradle/
+*.iml
+*.iws
+*.xml
+*.editorconfig
+
+# Gradle
+log/
+target/
+hooks/pre-push
+/target/
+*/target/
+
+# Java
+build/
+out/
+*.class
+*.jar
+*.war
+*.ear
+
+# Log file
+*.log
+.scannerwork/report-task.txt
+.scannerwork/.sonar_lock
+.scannerwork/
+
+# virtual machine crash logs, see https://urldefense.com/v3/__http://www.java.com/en/download/help/error_hotspot.xml__;!!JVh_Qfuk4otXm3Mt0g!oN8aaCGE6m_TnFNlT1Ab3svBsoTQkoESlPTxNYGZLiu62vCmaF00GXw1-TD5d4HgB4IMYc_r$    hs_err_pid*
+.gradle
+build/
+*/.build/
+/.build/
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+#Evidencias
+*.png
+*.jpg
