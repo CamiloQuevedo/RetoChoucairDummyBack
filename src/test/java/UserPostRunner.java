@@ -17,7 +17,7 @@ public class UserPostRunner {
         Results results = Runner.path("classpath:features/users/post/user-post.feature"
                 )
                 .outputCucumberJson(true)
-                .tags("scenario")
+                .tags("@scenario")
                 .parallel(1);
         generateReport(results.getReportDir());
         Assertions.assertTrue(results.getFailCount()==0,results.getErrorMessages());

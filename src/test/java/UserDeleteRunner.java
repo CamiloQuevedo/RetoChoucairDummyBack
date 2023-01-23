@@ -17,7 +17,7 @@ public class UserDeleteRunner {
         Results results = Runner.path("classpath:features/users/delete/user-delete.feature"
                 )
                 .outputCucumberJson(true)
-                .tags("~@ignore")
+                .tags("@scenario")
                 .parallel(1);
         generateReport(results.getReportDir());
         Assertions.assertTrue(results.getFailCount()==0,results.getErrorMessages());
